@@ -2,7 +2,7 @@ import { signal, computed, effect } from '@preact/signals-react';
 import { MatchResult, matcherAsync } from '../lib/matcher';
 
 const SS_KEY = 'm-list';
-const MIN_LIST_LEN = 3;
+export const MIN_LIST_LEN = 3;
 /**
  * Defines the delay before going in loading state.
  * Things which happen quicker does not really
